@@ -1,0 +1,5 @@
+# IntelliJ IDEA 설정 폴더
+*.idea/
+
+# macOS의 .DS_Store 파일
+*.DS_Store
