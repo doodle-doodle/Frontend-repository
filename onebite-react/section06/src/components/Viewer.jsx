@@ -1,7 +1,5 @@
-import {useState} from "react";
 
-const Viewer = () => {
-    const [count, setCount] = useState(0);
+const Viewer = ({count}) => {
 
     return (
         <div>
