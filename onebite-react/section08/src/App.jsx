@@ -44,9 +44,9 @@ function App() {
     <div className="App">
       <Header/>
       <Editor onCreate={onCreate}/>
-      <List/>
+      <List todos={ todos }/>
     </div>
   )
 }
 
-export default App
+export default App;

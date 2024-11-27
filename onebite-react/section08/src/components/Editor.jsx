@@ -13,8 +13,7 @@ const Editor = ({ onCreate }) => {
         if (e.KeyCode === 13){
             onSubmit();
         }
-
-    }
+    } // 엔터 놀러도 동작하도록
 
     const onSubmit = () => {
         if (content === "") {
