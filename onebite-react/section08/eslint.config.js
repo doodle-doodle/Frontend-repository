@@ -33,9 +33,8 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
-      // 항상 설정해야 하는 2가지
-      "no-unused-vars":"off", // 정의하고 사용하지 않는 변수에 대한 error 끄기
-      "react/prop-types":"off", // 프로퍼티 유형을 적용해야하는 규칙 끄기
+      "no-unused-vars": "off",
+      "react/prop-types": "off",
     },
   },
 ]
